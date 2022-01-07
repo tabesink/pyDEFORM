@@ -1,5 +1,5 @@
 """
- User-defined exceptions
+ User-defined exceptions - logging not enabled
 """
 
 
@@ -9,5 +9,5 @@ class Error(Exception):
 
 
 class MissingDEFREPORT(Error):
-    """Raised when the input value is too large"""
+    """Raised when """
     pass
